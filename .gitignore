@@ -1,3 +1,4 @@
-*.out
-*.log
-*.aux
+!resume.pdf
+!resume.tex
+!resume_1.png
+!README.md
