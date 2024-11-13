@@ -112,23 +112,11 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Raymond Yang} \\ \vspace{1pt}
+    \textbf{\Huge \scshape Raymond Yang} \\ \vspace{3pt}
     \href{ry25@illinois.edu}{\underline{ry25@illinois.edu}} $|$ 
-    \href{https://www.linkedin.com/in/raymond-y-3061841b7}{\underline{linkedin.com/in/raymond-y-3061841b7/}} $|$
+    \href{https://www.linkedin.com/in/raymond-y-3061841b7}{\underline{linkedin.com/in/raymond-y-3061841b7}} $|$
     \href{https://github.com/yangr0}{\underline{github.com/yangr0}}
 \end{center}
-
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University Of Illinois Urbana-Champaign}{Urbana, IL}
-      {Bachelor of Science in Computer Science + Linguistics}{Aug. 2024 -- Present}
-    \resumeSubheading
-      {Sullivan High School}{Sullivan, IL}
-      {High School Diploma}{Aug. 2020 -- May 2024}
-  \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------
@@ -141,17 +129,13 @@
       \resumeItemListStart
         \resumeItem{Took on the lead role for all cloud operations}
         \resumeItem{Responsible for managing all company infrastructure and setting up infrastructure-as-code}
-        \resumeItem{Incorporated, presented, and administered DevOps-like workflow for the entire company to follow, increasing productivity levels drastically across the entire department}
-        \resumeItem{Collaborated directly with lead engineer to architect and strategize products
-}
-        \resumeItem{Implemented software configuration management with GitHub Actions using Puppet and Terraform}
-        \resumeItem{Created and managed CI/CD workflows for Python and Rust projects using GitHub Actions}
-        \resumeItem{Developed vulnerability management workflow with an automatic ticketing system preventing numerous exploits}
-        \resumeItem{Setup Linux server that was used for hosting all company internal applications
-}
-        \resumeItem{Deployed Kubernetes for multi-node implementation of in-house Parquet-like searching tool}
-        \resumeItem{Spearheaded a Terraform project to port an in-house logs ingesting service from a web app to an AWS stack using  Route 53, ALB, ACM, S3, and AWS Lambda
-}
+        \resumeItem{Collaborated directly with lead engineer to architect and strategize products}
+        \resumeItem{Incorporated, presented, and administered development workflow for the entire company to follow, increasing productivity levels drastically across the entire department}
+        \resumeItem{Created and managed CI/CD workflows for all Python and Rust projects using GitHub Actions}
+        \resumeItem{Developed vulnerability management workflow with an automatic ticketing system, preventing numerous exploits}
+        \resumeItem{Utilized Terraform, GitHub Actions, and Puppet to create a workflow that pushed upstream changes to servers that hosting company internal applications}
+        \resumeItem{Deployed Kubernetes for multi-node implementation of in-house Parquet-like database query utility}
+        \resumeItem{Spearheaded a Terraform project to port a high-volume in-house logs ingesting service from a web app to an AWS stack using  Route 53, ALB, ACM, S3, and AWS Lambda}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -165,62 +149,68 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Software Engineer Intern}{Sep. 2020 -- Nov. 2021}
+      {Software Engineer (Internship)}{Sep. 2020 -- Nov. 2021}
       {Blackbot Inc.}{Remote}
       \resumeItemListStart
-        \resumeItem{Constructed high-quality test cases to the Atomic Red Team Project for more than 20,000 users
+        \resumeItem{Constructed high-quality test cases to the Atomic Red Team for more than 20,000 users
 }
         \resumeItem{Responsible for automating the daily process to backup production code, helping save significant amounts of time}
         \resumeItem{Implemented multiple features for an in-house post-exploitation framework}
     \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{RBust} $|$ \emph{Rust, Git, Markdown}}{April 2020 -- July 2020}
-          \resumeItemListStart
-            \resumeItem{Utilized the high-performance nature of Rust to create a web fuzzing tool}
-            \resumeItem{Used the Isahc library to make HEAD requests to desired URL}
-            \resumeItem{Implemented multi-threading to furthur increase performance}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{BlackPhish} $|$ \emph{Python, PHP, HTML, Bash}}{October 2019 -- January 2020}
-          \resumeItemListStart
-            \resumeItem{Developed tool to mimick website and catch POST data}
-            \resumeItem{Utilized Apache2 to host mimicked website}
-            \resumeItem{Wrote PHP script to capture POST data of form}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-
-
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Rust, Python, Bash, YAML, Markdown, Latex, HTML, SQL} \\
-     \textbf{Libraries}{: Actix Web, Flask, Cargo Lambda, Reqwest, Isahc, Prompt Toolkit, polars} \\
-     \textbf{Developer Tools}{: Git, Terraform, Docker, Kubernetes, Elasticsearch, Github Actions, Puppet, AWS Lambda, AWS S3, AWS Load Balancer, AWS Certificate Manager, AWS Route 53, Neovim, VSCode, SQLite} \\
+     \textbf{Languages}{: Rust, Python, Bash, YAML, Markdown, Latex, HTML, CSS, SQL, Typescript} \\
+     \textbf{Libraries/Frameworks}{: Actix Web, Flask, Cargo Lambda, Reqwest, Isahc, Rayon, Prompt Toolkit, Pola-rs, Next.js, Tailwind CSS} \\
+     \textbf{Developer Tools}{: Terraform, Kubernetes, Puppet, Docker, Elasticsearch, Git, Github Actions, AWS Lambda, AWS S3, AWS Load Balancer, AWS Certificate Manager, AWS Route 53, Neovim, SQLite} \\
      \textbf{Skills}{: Linux, CI/CD, System Administration, Computer Networking, Agile Development, Pentesting, JSON Manipulation} \\
     }}
  \end{itemize}
 
+%-----------PROJECTS-----------
+\section{Open-Source Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{RBust} $|$ \emph{Rust, Git, Markdown}}{April 2020 -- July 2020}
+          \resumeItemListStart
+            \resumeItem{Utilized the high-performance nature of Rust to create a CLI web-fuzzing tool}
+            \resumeItem{Used the Isahc library to make HEAD requests to desired URL}
+            \resumeItem{Implemented multi-threading using the Rayon library to furthur increase performance}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{BlackPhish} $|$ \emph{Python, PHP, HTML, Bash}}{October 2019 -- January 2020}
+          \resumeItemListStart
+            \resumeItem{Developed CLI utility to mimick website and catch POST data by hosting locally}
+            \resumeItem{Utilized Apache2 to host mimicked website}
+            \resumeItem{Used ngrok to create a reverse proxy to the Apache2 server}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University Of Illinois Urbana-Champaign}{Urbana, IL}
+      {Bachelor of Science in Computer Science + Linguistics}{Aug. 2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Infrastructure backend developer for the biggest CS organization at UIUC}
+        \resumeItem{Responsible for architecting and overseeing entire backend for CS124 Honors project}
+      \resumeItemListEnd
+        
+  \resumeSubHeadingListEnd
 
 %-----------Misc.-----------
 \section{Miscellaneous}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Organizations}{: ACM Infrastructure Committee, ACM GNU/Linux Users' Group, ACM Natual Language Learning} \\
-     \textbf{Awards}{: 4th Place State ACEs Computer Science, Straight A Honor Roll} \\
-     \textbf{Academics}{: AP Calculus, AP Chemistry, AP Statistics, DC English, US History} \\
+     \textbf{Academics}{: 4th Place State ACEs Computer Science, CS124 Honors} \\
      \textbf{Languages}{: English, Chinese} \\
     }}
  \end{itemize}
 
-
- %-------------------------------------------
+ %------------------------------
 \end{document}
