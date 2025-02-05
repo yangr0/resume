@@ -2,4 +2,4 @@
 
 [download here](https://github.com/yangr0/resume/blob/main/resume.pdf)
 
-![img](https://github.com/yangr0/resume/blob/main/resume.png)
+<img src="https://github.com/yangr0/resume/blob/main/resume.png" width=100% />
