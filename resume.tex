@@ -94,7 +94,7 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -119,6 +119,30 @@
     \href{https://y4ng.dev}{\underline{y4ng.dev}}
 \end{center}
 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University Of Illinois Urbana-Champaign}{August 2024 -- Expected: May 2028}
+      {Bachelor of Science in Computer Science + Linguistics}{Urbana, IL}
+      \resumeItemListStart
+        \resumeItem{Relevent Coursework: Discrete Structures, Data Structures, Computer Architecture, System Programming}
+        \resumeItem{Organizations: ACM SIGPwny, ACM GNU/Linux Users' Group, Skateboarding Illini, GTO Illini}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Rust, Python, HCL, Bash, Regex, HTML, CSS, SQL, Typescript, Verilog, C++, C} \\
+     \textbf{Libraries/Frameworks}{: Actix Web, Flask, Cargo Lambda, Next.js, React, OCSF, Wrangler, Expo, React Native} \\
+     \textbf{Technologies}{: Terraform, Kubernetes, AWS, Cloudflare, Puppet, Docker, Elasticsearch, Git, Github Actions, FluxCD} \\
+     \textbf{Skills}{: CI/CD, Linux System Administration, Systems Design, Detection Engineering, ETL, Data Engineering, Application Security, Endpoint Security, Network Security, SOPS} \\
+     \textbf{Spoken Languages}{: English, Chinese (Mandarin, Fuzhounese)} \\
+    }}
+\end{itemize}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -128,12 +152,12 @@
       {Mezzanotte Labs}{Remote (Seasonal)}
       \resumeItemListStart
         \resumeItem{Architected a high-performance, high-availability, self-managed Kubernetes platform utilizing Terragrunt for IaC, FluxCD for GitOps-driven multi-cluster scalability, and SOPS for secure secret management}
-        \resumeItem{Oversaw all company infrastructure and implemented IaC resulting in reduced provisioning time and deployment time}
+        \resumeItem{Oversaw all company infrastructure and implemented IaC resulting in reduced provisioning and deployment time}
         \resumeItem{Collaborated directly with the lead engineer to architect and strategize products, resulting in performance improvements and an increased system scalability}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Staff Security Engineer}{March 2025 -- Aug. 2025}
+      {Staff Security Engineer}{March 2025 -- August 2025}
       {CVS Health (via Colossus Technologies Group)}{Remote (Contract)}
       \resumeItemListStart
         \resumeItem{Developed a Rust prototype performing ingestion endpoint simulation (Splunk, Crowdstrike), OCSF normalization, and inline detection, designed to handle over 100TB of data per day with near real-time processing}
@@ -142,7 +166,7 @@
       \resumeItemListEnd
 
     \resumeSubheading
-      {Software Engineer Intern}{Sep. 2020 -- Nov. 2021}
+      {Software Engineer Intern}{September 2020 -- November 2021}
       {Blackbot Security}{Remote}
       \resumeItemListStart
         \resumeItem{Implemented multiple features for an in-house C2 framework in Python}
@@ -159,46 +183,11 @@
             \resumeItem{Spearheaded a Terraform project to transform a high-volume in-house log ingestion service from a Rust HTTP server to an AWS stack (Route 53, ALB, ACM, S3, AWS Lambda) using Cargo Lambda, projecting to reduce costs by 60\%}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Vulnerability Management Workflow} $|$ \emph{Terraform, Python}}{Nov. 2022 -- Nov. 2022}
+          {\textbf{Vulnerability Management Workflow} $|$ \emph{Terraform, Python}}{November 2022 -- November 2022}
           \resumeItemListStart
-            \resumeItem{Used Python, GitHub Actions, and Terraform to manage infrastructure of the workflow, OpenVAS to scan for vulnerabilities, and n8n to automate ticket creation}
+            \resumeItem{Managed workflow by utilizing Github Actions for CI/CD, Terraform for IaC, OpenVAS for vulnerability scanning, and n8n to automate ticket creation}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Rust, Python, HCL, Bash, Regex, HTML/CSS, SQL, Typescript} \\
-     \textbf{Libraries/Frameworks}{: Actix Web, Flask, Cargo Lambda, Next.js, React, OCSF} \\
-     \textbf{Technologies}{: Terraform, Kubernetes, AWS, Puppet, Docker, Elasticsearch, Git, Github Actions, FluxCD} \\
-     \textbf{Skills}{: CI/CD, Linux System Administration, Networking, Systems Design, Detection Engineering, ETL} \\
-    }}
- \end{itemize}
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University Of Illinois Urbana-Champaign}{Urbana, IL}
-      {Bachelor of Science in Computer Science + Linguistics}{Aug. 2024 -- Present}
-      \resumeItemListStart
-        \resumeItem{Infrastructure backend developer for the largest CS organization at UIUC}
-        \resumeItem{Responsible for architecting and overseeing entire backend for CS124 Honors project}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
-
-%-----------Misc.-----------
-\section{Miscellaneous}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Open Source Contributions}{: 800+ GitHub stars, multiple contributions to 12k+ star GitHub projects} \\
-     \textbf{Relevent Coursework}{: Discrete Structures, Data Structures, Computer Architecture, System Programming} \\
-     \textbf{Organizations}{: ACM SIGPwny, ACM GNU/Linux Users' Group, Skateboarding Illini, GTO Illini} \\
-     \textbf{Languages}{: English, Chinese (Mandarin, Fuzhounese)} \\
-    }}
- \end{itemize}
-
- %------------------------------
 \end{document}
